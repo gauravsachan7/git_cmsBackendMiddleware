@@ -1,0 +1,27 @@
+{
+  "name": "EXICHARGER",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --inspect server4600.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nocache": "^2.1.0",
+    "pg": "^8.3.0",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0",
+    "socks-proxy-agent": "^5.0.0",
+    "swagger-ui-express": "^4.6.0",
+    "util": "^0.12.3",
+    "winston": "^3.8.2",
+    "ws": "^7.3.1"
+  }
+}
